@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #14a81e;
+  color: rgb(240, 234, 234);
+  font-size: 18px;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+/* Logo container styling */
+.logoContainer {
+  display: flex;
+}
+
+/* Logo styling */
+.logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Navbar list styling */
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 60px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar item styling */
+.navItem {
+  position: relative;
+}
+
+/* Navbar link styling */
+.navLink {
+  text-decoration: none;
+  color: rgb(245, 238, 238);
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+.navLink:hover {
+  color: #0b0e0b;
+}
+
+/* Container for login and register links */
+.authContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Login/Register link styling */
+.link {
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+
+.link:hover {
+  color: #a81488;
+}
+
+/* Media Query for small screens (mobile-first design) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .authContainer {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
