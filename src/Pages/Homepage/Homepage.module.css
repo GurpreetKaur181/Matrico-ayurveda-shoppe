@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url("src/assets/images/Back.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.textContent {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff; 
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .textContent h1 {
+    font-size: 2rem;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+  }
+  
+  .textContent p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .Boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  /* Styling for each individual box */
+  .box {
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 10%;
+  }
+  
+  .box:hover {
+    transform: scale(1.05); 
+  }
+
+  .boxImage {
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10%; 
+  }
+  
+  .boxText {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
