@@ -3,14 +3,14 @@ import styles from "./Homepage.module.css";
 
 
 const images = [
-  "aayur.png",
-  "aayur1.png",
-  "aayur2.png",
-  "aayur3.png",
-  "aayur4.png",
-  "aayur5.png",
-  "aayur6.png",
-  "aayur7.png",
+  "ayur.png",
+  "ayur1.png",
+  "ayur2.png",
+  "ayur3.png",
+  "ayur4.png",
+  "ayur5.png",
+  "ayur6.png",
+  "ayur7.png",
   
 ];
 function Homepage(){
