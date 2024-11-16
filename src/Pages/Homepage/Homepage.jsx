@@ -1,16 +1,36 @@
 import React from "react";
 import styles from "./Homepage.module.css";
 
-
 const images = [
-  { name: "Herbal & Ayurveda Diabic Care Juice 1000 ml", src: "ayur.png" },
-  { name: "Pankajakasthuri Breathe Easy Granules 400 gm", src: "ayur1.png" },
-  { name: "Pankajakasthuri Breathe Easy Syrup 200 ml", src: "ayur2.png" },
-  { name: "Lama Ayush kwath Tablet 60's", src: "ayur3.png" },
-  { name: "Lama Draksharist Tonic 450 ml", src: "ayur4.png" },
-  { name: "Kairali Chyawanaprasam Lehya 500 gm", src: "ayur5.png" },
-  { name: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml", src: "ayur6.png" },
-  { name: "Lama Cough Syrup 100 ml", src: "ayur7.png" },
+  {
+    name: "Herbal & Ayurveda Diabic Care Juice 1000 ml",
+    src: "Herbal & Ayurveda Diabic Care Juice 1000 ml.jpg",
+  },
+  {
+    name: "Pankajakasthuri Breathe Easy Granules 400 gm",
+    src: "Pankajakasthuri Breathe Easy Granules 400 gm.png",
+  },
+  {
+    name: "Pankajakasthuri Breathe Easy Syrup 200 ml",
+    src: "Pankajakasthuri Breathe Easy Syrup 200 ml.jpg",
+  },
+  {
+    name: "Lama Ayush kwath Tablet 60's",
+    src: "Lama Ayush kwath Tablet 60's.jpg",
+  },
+  {
+    name: "Lama Draksharist Tonic 450 ml",
+    src: "Lama Draksharist Tonic 450 ml.jpg",
+  },
+  {
+    name: "Kairali Chyawanaprasam Lehya 500 gm",
+    src: "Kairali Chyawanaprasam Lehya 500 gm.jpg",
+  },
+  {
+    name: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml",
+    src: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml.jpg",
+  },
+  { name: "Lama Cough Syrup 100 ml", src: "Lama Cough Syrup 100 ml.jpg" },
 ];
 
 function Homepage() {
@@ -30,13 +50,16 @@ function Homepage() {
         {images.map((image, index) => (
           <div key={index} className={styles.box}>
             <img
-              src={`src/assets/images/${image.src}`}
+              src={`public/images/${image.src}`}
               alt={image.name}
               className={styles.boxImage}
             />
             <div className={styles.imageDetails}>
-              <p>{image.name}</p> {/* Display the image name */}
-              <button className={styles.button}>View More</button> {/* Add a button */}
+              <p>{image.name}</p>
+              <div className={styles.rowbutton}>
+                <button className={styles.detailsbutton}>More Details</button>
+                <button className={styles.buybutton}>Buy Now</button>
+              </div>
             </div>
           </div>
         ))}
@@ -46,5 +69,3 @@ function Homepage() {
 }
 
 export default Homepage;
-
-
