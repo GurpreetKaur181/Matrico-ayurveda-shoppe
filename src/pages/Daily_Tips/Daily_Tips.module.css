@@ -1,0 +1,71 @@
+.comingSoon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #296338;
+  text-shadow: 2px 2px 4px rgba(85, 227, 75, 0.2);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.message {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Add a colorful button */
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

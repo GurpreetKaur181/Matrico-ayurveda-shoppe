@@ -1,35 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #14a81e;
+  background-color: #23972a;
   color: rgb(240, 234, 234);
   font-size: 18px;
   padding: 0 30px;
   overflow: hidden;
 }
 
-/* Logo container styling */
-.logoContainer {
-  display: flex;
-}
-
 /* Logo styling */
 .logo {
-  height: 50px;
-  width: auto;
-  object-fit: contain;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* Navbar list styling */
-.navList {
+.navbar > .navList {
   display: flex;
   list-style: none;
   margin: 0;
@@ -40,21 +35,18 @@
   align-items: center;
 }
 
-/* Navbar item styling */
-.navItem {
-  position: relative;
-}
-
 /* Navbar link styling */
 .navLink {
   text-decoration: none;
   color: rgb(245, 238, 238);
   border-radius: 8px;
-  font-family: "Arial", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .navLink:hover {
-  color: #0b0e0b;
+  color: #5c5b5b;
 }
 
 /* Container for login and register links */
@@ -64,34 +56,20 @@
   align-items: center;
 }
 
-/* Login/Register link styling */
-.link {
+.authContainer > .login {
   text-decoration: none;
-  color: white;
-  border-radius: 8px;
-  border: 2px solid white;
-  padding: 5px 10px;
+  color: rgb(237, 235, 235);
+  background-color: rgb(32, 165, 243);
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
-.link:hover {
-  color: #a81488;
-}
-
-/* Media Query for small screens (mobile-first design) */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 15px;
-  }
-
-  .navList {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .authContainer {
-    margin-top: 20px;
-    justify-content: center;
-  }
+.authContainer > .register {
+  text-decoration: none;
+  color: rgb(237, 235, 235);
+  background-color: rgb(32, 165, 243);
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
 }

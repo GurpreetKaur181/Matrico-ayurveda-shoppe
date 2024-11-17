@@ -1,13 +1,24 @@
 .container {
   display: flex;
   justify-content: center;
-  background-image: url("src/assets/images/Back.png");
+  background-image: url("/images/Back.png");
+  height: 400px;
+  width: 100%; /* Full width */
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire container */
+  background-position: top;
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/Back.png");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 .textContent {
   text-align: center;

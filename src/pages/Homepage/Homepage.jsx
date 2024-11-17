@@ -50,7 +50,7 @@ function Homepage() {
         {images.map((image, index) => (
           <div key={index} className={styles.box}>
             <img
-              src={`public/images/${image.src}`}
+              src={`/images/${image.src}`}
               alt={image.name}
               className={styles.boxImage}
             />
