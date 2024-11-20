@@ -1,17 +1,15 @@
-.container{
-display: flex;
-justify-content: center;
-flex-direction: column;
- 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .textContent {
-    text-align: center;
-    color: #2af13b;
-    margin-bottom: 10px; 
-    margin-top: 20px;
-    font-size: 20px;
- 
+  text-align: center;
+  color: #2af13b;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .Boxes {
@@ -82,97 +80,3 @@ flex-direction: column;
 .button:hover {
   background-color: #0056b3;
 }
-/* Footer Styling */
-.footer {
-    background-color: #292727;
-    color: #f7efef;
-    padding: 40px 0;
-    margin-top: 40px;
-  }
-  
-  .footerContent {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .newsletter {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .newsletter h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .newsletter p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .newsletter input {
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    width: 250px;
-  }
-  
-  .subscribeBtn {
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .subscribeBtn:hover {
-    background-color: #45a049;
-  }
-  
-  .footerLinks {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1100px;
-    margin-bottom: 30px;
-  }
-  
-  .footerLinks div {
-    width: 22%;
-  }
-  
-  .footerLinks h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .footerLinks ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .footerLinks li {
-    margin-bottom: 8px;
-  }
-  
-  .footerLinks a {
-    color: #bebbbb;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .footerLinks a:hover {
-    text-decoration: underline;
-  }
-  
-  .footerBottom {
-    text-align: center;
-    font-size: 14px;
-  }
-  

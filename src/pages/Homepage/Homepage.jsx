@@ -5,32 +5,173 @@ const images = [
   {
     name: "Herbal & Ayurveda Diabic Care Juice 1000 ml",
     src: "Herbal & Ayurveda Diabic Care Juice 1000 ml.jpg",
+    link: "https://www.amazon.in/Krishnas-Diabic-Care-Juice-Guduchi/dp/B07B6NKPFT",
   },
   {
     name: "Pankajakasthuri Breathe Easy Granules 400 gm",
     src: "Pankajakasthuri Breathe Easy Granules 400 gm.png",
+    link: "https://www.amazon.in/Pankajakasthuri-Breathe-Granules-Weezing-Net-400g/dp/B00ZWC970K",
   },
   {
     name: "Pankajakasthuri Breathe Easy Syrup 200 ml",
     src: "Pankajakasthuri Breathe Easy Syrup 200 ml.jpg",
+    link: "https://www.amazon.in/Pankajakasthuri-Breathe-Eazy-Syrup-Pack/dp/B01DBZL4GY",
   },
   {
     name: "Lama Ayush kwath Tablet 60's",
     src: "Lama Ayush kwath Tablet 60's.jpg",
+    link: "https://www.amazon.in/Lama-Ayush-Kwath-60-Tablet/dp/B08BTR3QN2",
   },
   {
     name: "Lama Draksharist Tonic 450 ml",
     src: "Lama Draksharist Tonic 450 ml.jpg",
+    link: "https://www.amazon.in/Lama-Draksharist-450-Digestive-Indigestion/dp/B08425CX8K",
   },
   {
     name: "Kairali Chyawanaprasam Lehya 500 gm",
     src: "Kairali Chyawanaprasam Lehya 500 gm.jpg",
+    link: "https://www.amazon.in/Kairali-Kai_CY_500-Chyavanaprasam-500-gm/dp/B0CR45TJHD",
   },
   {
     name: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml",
     src: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml.jpg",
+    link: "https://www.amazon.in/Honitus-Sugar-Ayurvedic-Throat-Relief/dp/B0CX98JBB3",
   },
-  { name: "Lama Cough Syrup 100 ml", src: "Lama Cough Syrup 100 ml.jpg" },
+  {
+    name: "Lama Cough Syrup 100 ml",
+    src: "Lama Cough Syrup 100 ml.jpg",
+    link: "https://www.amazon.in/Lama-Dashmularist-450-Recuperate-Delivery/dp/B08422QMVV",
+  },
+  {
+    name: "Divya Swasari Pravahi",
+    src: "Divya Swasari Pravahi.jpg",
+    link: "https://www.amazon.in/Patanjali-Swasari-Pravahi-250-g/dp/B00SFI7SRM",
+  },
+  {
+    name: "Divya Chandraprabha Vati",
+    src: "Divya Chandraprabha Vati.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Chandraprabha-Vati-Tablet/dp/B0CKBSDWPF",
+  },
+  {
+    name: "Divya Jwarnashak kwath",
+    src: "Divya Jwarnashak kwath.png",
+    link: "https://www.amazon.in/Patanjali-Divya-Jwarnashak-Kwath-Pack/dp/B07YFNPM5H",
+  },
+  {
+    name: "Divya Dhara",
+    src: "Divya Dhara.png",
+    link: "https://www.amazon.in/Patanjali-Ayurved-Divya-Dhara-Piece/dp/B01G70NCII",
+  },
+  {
+    name: "Shuddhi churna",
+    src: "Shuddhi churna.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Suddhi-Churna-Pack/dp/B07DSC4RNR",
+  },
+  {
+    name: "Divya Khadirarishta",
+    src: "Divya Khadirarishta.png",
+    link: "https://www.amazon.in/DIVYA-KHADIRARISHTH-450ML-PACK-2/dp/B08WJ1822R",
+  },
+  {
+    name: "Divya churna",
+    src: "Divya churna.png",
+    link: "https://www.amazon.in/-/hi/%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%A8%E0%A4%BE-100gm-%E0%A4%85%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A4%A4%E0%A4%BE/dp/B07HL9B2FC",
+  },
+  {
+    name: "Peedantak Vati",
+    src: "Peedantak Vati.png",
+    link: "https://www.amazon.in/Patanjali-Divya-Peedantak-Vati-Tab/dp/B081D1GCPK",
+  },
+  {
+    name: "Ashwagansharist",
+    src: "Ashwagansharist.png",
+    link: "https://www.amazon.in/Baidyanath-101453916-Ashwagandharishta-680-Ml/dp/B0B4FZ5LP9",
+  },
+  {
+    name: "Divya Medha Vati",
+    src: "Divya Medha Vati.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Medha-Extra-Power/dp/B0BQ77BVKN",
+  },
+  {
+    name: "immunogrit",
+    src: "immunogrit.png",
+    link: "https://www.amazon.in/Patanjali-Immunogrit-60Tab-JV-Pack/dp/B0CWD3CZCX",
+  },
+  {
+    name: "drishti",
+    src: "drishti.jpg",
+    link: "https://www.amazon.in/PATANJALI-Drishti-Eye-Drop-15ml/dp/B0B6JC9DJP",
+  },
+  {
+    name: "mukti vati",
+    src: "mukti vati.jpg",
+    link: "https://www.amazon.in/Divya-Mukta-Vati-Extra-Power/dp/B0786ZQ1PG",
+  },
+  {
+    name: "Hridyamrit vati",
+    src: "Hridyamrit vati.png",
+    link: "https://www.amazon.in/Divya-Hridyamrit-Vati-Extra-Power/dp/B0D9YSC28Y",
+  },
+  {
+    name: "divya ashmarihar ras",
+    src: "divya ashmarihar ras.png",
+    link: "https://www.amazon.in/DIVYA-PHARMACY-ASHMARIHAR-RAS-100/dp/B08ZSQZB25",
+  },
+  {
+    name: "livogrit vital",
+    src: "livogrit vital.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Livogrit-Vital-Pack/dp/B0CV4G4CYS",
+  },
+  {
+    name: "Gokshuradhi guggul",
+    src: "Gokshuradhi guggul.png",
+    link: "https://www.amazon.com/Patanjali-Baba-Ramdev-Gokshuradi-Guggulu/dp/8513652369",
+  },
+  {
+    name: "Ashokarishth",
+    src: "Ashokarishth.png",
+    link: "https://www.amazon.in/-/hi/Patanjali-Ashokarishta-%E0%A4%AE%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%93%E0%A4%82-%E0%A4%B2%E0%A4%BF%E0%A4%8F-%E0%A4%A4%E0%A4%B0%E0%A4%B2/dp/B07J4BYSJ9",
+  },
+  {
+    name: "shatavr churna",
+    src: "shatavr churna.png",
+    link: "https://www.amazon.in/Patanjali-Shatavar-Churna-100gms/dp/B077QFTG7J",
+  },
+  {
+    name: "kesh kanti",
+    src: "kesh kanti.png",
+    link: "https://www.amazon.in/Patanjali-Kesh-Kanti-Oil-120/dp/B00O9SZGO4",
+  },
+  {
+    name: "saundarya",
+    src: "saundarya.png",
+    link: "https://www.amazon.in/Patanjali-Saundarya-Fair-Skin-Cream/dp/B0753PGHJN",
+  },
+  {
+    name: "nutrela weight gain",
+    src: "nutrela weight gain.jpg",
+    link: "https://www.amazon.in/Nutrela-Weight-Gain-Banana-Flavour/dp/B0B4RXF1Z6",
+  },
+  {
+    name: "weight go tablet",
+    src: "weight go tablet.png",
+    link: "https://www.amazon.in/DIVYA-WEIGHT-TAB-LOOSE-EXTRA/dp/B0CBK7SZFD",
+  },
+  {
+    name: "thyrogrit",
+    src: "thyrogrit.jpg",
+    link: "https://www.amazon.in/Patanjalis-Divya-Thyrogrit-60-Tablets/dp/B08RXH373X",
+  },
+  {
+    name: "anartava syrup",
+    src: "anartava syrup.jpg",
+    link: "https://www.amazon.in/Namyaa-Anartava-Delayed-Irregular-millilitre/dp/B08NT8FKBR?th=1",
+  },
+  {
+    name: "chandraprabha vati",
+    src: "chandraprabha vati.png",
+    link: "https://www.amazon.in/Divya-Chandraprabha-Vati-120-Tablets/dp/B07864XY89",
+  },
 ];
 
 const diseases = [
@@ -39,156 +180,182 @@ const diseases = [
     Herbs: ["Honey", "Tulsi", "Ginger"],
     medicine: "Divya Swasari Pravahi",
     image: "Divya Swasari Pravahi.jpg",
+    link: "https://www.amazon.in/Patanjali-Swasari-Pravahi-250-g/dp/B00SFI7SRM",
   },
   {
     name: "Diabetes",
     Herbs: ["Jamun", "Bitter Gourd", "Fenugreek"],
     medicine: "Divya Chandraprabha Vati",
     image: "Divya Chandraprabha Vati.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Chandraprabha-Vati-Tablet/dp/B0CKBSDWPF",
   },
   {
     name: "Fever",
     Herbs: ["Tulsi", "Neem", "Giloy"],
     medicine: "Divya Jwarnashak kwath",
     image: "Divya Jwarnashak kwath.png",
+    link: "https://www.amazon.in/Patanjali-Divya-Jwarnashak-Kwath-Pack/dp/B07YFNPM5H",
   },
   {
     name: "Headache",
     Herbs: ["Ashwagandha", "Brahmi", "Gotu Kola"],
     medicine: "Divya Dhara",
     image: "Divya Dhara.png",
+    link: "https://www.amazon.in/Patanjali-Ayurved-Divya-Dhara-Piece/dp/B01G70NCII",
   },
   {
     name: "Indigestion",
     Herbs: ["Triphala", "Ginger", "Cumin"],
     medicine: "Shuddhi churna",
     image: "Shuddhi churna.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Suddhi-Churna-Pack/dp/B07DSC4RNR",
   },
   {
     name: "Constipation",
     Herbs: ["Triphala", "Isabgol, Aloe Vera"],
     medicine: "Divya Khadirarishta",
     image: "Divya Khadirarishta.png",
+    link: "https://www.amazon.in/DIVYA-KHADIRARISHTH-450ML-PACK-2/dp/B08WJ1822R",
   },
   {
     name: "Skin Diseases (Eczema, Psoriasis)",
     Herbs: ["Neem", "Tulsi, Turmeric"],
     medicine: "Divya churna",
     image: "Divya churna.png",
+    link: "https://www.amazon.in/-/hi/%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%A8%E0%A4%BE-100gm-%E0%A4%85%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A4%A4%E0%A4%BE/dp/B07HL9B2FC",
   },
   {
     name: "Joint Pain",
     Herbs: ["Ashwagandha", "Turmeric, Ginger"],
     medicine: "Peedantak Vati",
     image: "Peedantak Vati.png",
+    link: "https://www.amazon.in/Patanjali-Divya-Peedantak-Vati-Tab/dp/B081D1GCPK",
   },
   {
     name: "Anxiety and Stress",
     Herbs: ["Ashwagandha", "Brahmi, Valerian Root"],
     medicine: "Ashwagansharist",
     image: "Ashwagansharist.png",
+    link: "https://www.amazon.in/Baidyanath-101453916-Ashwagandharishta-680-Ml/dp/B0B4FZ5LP9",
   },
   {
     name: "Insomnia",
     Herbs: ["Ashwagandha", "Brahmi, Valerian Root"],
     medicine: "Divya Medha Vati",
     image: "Divya Medha Vati.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Medha-Extra-Power/dp/B0BQ77BVKN",
   },
   {
     name: "Low Immunity",
     Herbs: ["Amla", "Tulsi, Ashwagandha"],
     medicine: "immunogrit",
     image: "immunogrit.png",
+    link: "https://www.amazon.in/Patanjali-Immunogrit-60Tab-JV-Pack/dp/B0CWD3CZCX",
   },
   {
     name: "Eye Problems",
     Herbs: ["Triphala", "Amla, Bilberry"],
     medicine: "drishti",
     image: "drishti.jpg",
+    link: "https://www.amazon.in/PATANJALI-Drishti-Eye-Drop-15ml/dp/B0B6JC9DJP",
   },
   {
     name: "High Blood Pressure",
     Herbs: ["Arjuna, Garlic, Coriander"],
     medicine: "mukti vati",
     image: "mukti vati.jpg",
+    link: "https://www.amazon.in/Divya-Mukta-Vati-Extra-Power/dp/B0786ZQ1PG",
   },
   {
     name: "Heart Disease",
     Herbs: ["Arjuna, Garlic, Guggulu"],
     medicine: "Hridyamrit vati",
     image: "Hridyamrit vati.png",
+    link: "https://www.amazon.in/Divya-Hridyamrit-Vati-Extra-Power/dp/B0D9YSC28Y",
   },
   {
     name: "Kidney Stones",
     Herbs: ["Varuna, Punarnava, Shilajit"],
     medicine: "divya ashmarihar ras",
     image: "divya ashmarihar ras.png",
+    link: "https://www.amazon.in/DIVYA-PHARMACY-ASHMARIHAR-RAS-100/dp/B08ZSQZB25",
   },
   {
     name: "Liver Diseases",
     Herbs: ["Bhringraj, Kalmegh, Shatavari"],
     medicine: "livogrit vital",
     image: "livogrit vital.jpg",
+    link: "https://www.amazon.in/Patanjali-Divya-Livogrit-Vital-Pack/dp/B0CV4G4CYS",
   },
   {
     name: "Urinary Tract Infections (UTIs)",
     Herbs: ["Gokshura, Varuna, Chandraprabha Vati"],
     medicine: "Gokshuradhi guggul",
     image: "Gokshuradhi guggul.png",
+    link: "https://www.amazon.com/Patanjali-Baba-Ramdev-Gokshuradi-Guggulu/dp/8513652369",
   },
   {
     name: "Menstrual Disorders",
     Herbs: ["Ashoka, Shatavari, Dashmula"],
     medicine: "Ashokarishth",
     image: "Ashokarishth.png",
+    link: "https://www.amazon.in/-/hi/Patanjali-Ashokarishta-%E0%A4%AE%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%BE%E0%A4%93%E0%A4%82-%E0%A4%B2%E0%A4%BF%E0%A4%8F-%E0%A4%A4%E0%A4%B0%E0%A4%B2/dp/B07J4BYSJ9",
   },
   {
     name: "Menopause Symptoms",
     Herbs: ["Shatavari, Ashoka, Ashwagandha"],
     medicine: "shatavr churna",
     image: "shatavr churna.png",
+    link: "https://www.amazon.in/Patanjali-Shatavar-Churna-100gms/dp/B077QFTG7J",
   },
   {
     name: "Hair Loss",
     Herbs: ["Bhringraj, Amla, Brahmi"],
     medicine: "kesh kanti",
     image: "kesh kanti.png",
+    link: "https://www.amazon.in/Patanjali-Kesh-Kanti-Oil-120/dp/B00O9SZGO4",
   },
   {
     name: "Premature Aging",
     Herbs: ["Amla, Ashwagandha, Chyawanprash"],
     medicine: "saundarya",
     image: "saundarya.png",
+    link: "https://www.amazon.in/Patanjali-Saundarya-Fair-Skin-Cream/dp/B0753PGHJN",
   },
   {
     name: "Weight Gain",
     Herbs: ["Triphala, Guggulu, Garcinia Cambogia"],
     medicine: "nutrela weight gain",
     image: "nutrela weight gain.jpg",
+    link: "https://www.amazon.in/Nutrela-Weight-Gain-Banana-Flavour/dp/B0B4RXF1Z6",
   },
   {
     name: "Weight Loss",
     Herbs: ["Triphala, Guggulu, Garcinia Cambogia"],
     medicine: "weight go tablet",
     image: "weight go tablet.png",
+    link: "https://www.amazon.in/DIVYA-WEIGHT-TAB-LOOSE-EXTRA/dp/B0CBK7SZFD",
   },
   {
     name: "Thyroid Disorders",
     Herbs: ["Brahmi, Ashwagandha, Guggulu"],
     medicine: "thyrogrit",
     image: "thyrogrit.jpg",
+    link: "https://www.amazon.in/Patanjalis-Divya-Thyrogrit-60-Tablets/dp/B08RXH373X",
   },
   {
     name: "PCOD/PCOS",
     Herbs: ["Shatavari, Ashoka, Chandraprabha Vati"],
     medicine: "anartava syrup",
     image: "anartava syrup.jpg",
+    link: "https://www.amazon.in/Namyaa-Anartava-Delayed-Irregular-millilitre/dp/B08NT8FKBR?th=1",
   },
   {
     name: "Infertility",
     Herbs: ["Ashwagandha, Shatavari, Shilajit"],
     medicine: "chandraprabha vati",
     image: "chandraprabha vati.png",
+    link: "https://www.amazon.in/Divya-Chandraprabha-Vati-120-Tablets/dp/B07864XY89",
   },
 ];
 
@@ -295,13 +462,15 @@ function Homepage() {
                 </ul>
                 {selectedDisease.image && (
                   <img
-                    src={`./images/${selectedDisease.image}`} // Adjust image path based on your setup
+                    src={`./images/${selectedDisease.image}`}
                     alt={selectedDisease.name + " Medicine"}
                     style={{
                       width: "100px",
                       height: "100px",
                       marginTop: "10px",
+                      cursor: "pointer",
                     }}
+                    onClick={() => window.open(selectedDisease.link, "_blank")}
                   />
                 )}
               </div>
@@ -324,7 +493,12 @@ function Homepage() {
               <p>{image.name}</p>
               <div className={styles.rowbutton}>
                 <button className={styles.detailsbutton}>More Details</button>
-                <button className={styles.buybutton}>Buy Now</button>
+                <button
+                  className={styles.buybutton}
+                  onClick={() => window.open(image.link, "_blank")}
+                >
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
