@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+    margin: 20px 40px;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
   }

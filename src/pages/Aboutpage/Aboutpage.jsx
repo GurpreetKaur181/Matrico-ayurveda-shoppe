@@ -4,7 +4,7 @@ import styles from "./Aboutpage.module.css";
 function Aboutpage (){
     return(
         <>
-           <div className={styles.container}></div>
+           <div className={styles.container}>
              <h1>About Metrico Ayurveda Shoppe</h1>
 
              <p className={styles.paragraph}>
@@ -33,10 +33,8 @@ function Aboutpage (){
       <p className={styles.paragraph}>
       Explore our collection of Ayurvedic remedies and let us help you experience the timeless benefits of Ayurveda. Whether you seek to restore balance, improve your overall health, or simply incorporate more natural solutions into your life, Metrico Ayurveda Shoppe is here to support you every step of the way.
       </p>
-
+      </div>
       </>
-
-     
     )
 }
 

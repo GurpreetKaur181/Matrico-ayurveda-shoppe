@@ -4,6 +4,7 @@ import Nav from "./components/Navbar/Nav.jsx";
 import Homepage from "./pages/Homepage/Homepage.jsx";
 import Aboutpage from "./pages/Aboutpage/Aboutpage.jsx";
 import Contactpage from "./pages/Contactpage/Contactpage.jsx";
+import AyurStore from "./pages/AyurStore/AyurStore.jsx";
 import DailyTips from "./pages/Daily_Tips/Daily_Tips.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<Aboutpage />} />
         <Route path="/contact" element={<Contactpage />} />
+        <Route path="/ayur_store" element={<AyurStore />} />
         <Route path="/daily_tips" element={<DailyTips />} />
       </Routes>
     </Router>
