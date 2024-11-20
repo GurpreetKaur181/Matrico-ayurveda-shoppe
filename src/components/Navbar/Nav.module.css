@@ -58,8 +58,8 @@
 
 .authContainer > .login {
   text-decoration: none;
-  color: rgb(237, 235, 235);
-  background-color: rgb(32, 165, 243);
+  color: rgb(2, 2, 2);
+  background-color: rgb(226, 233, 224);
   padding: 6px 10px;
   border-radius: 5px;
   font-size: 15px;
@@ -67,8 +67,8 @@
 
 .authContainer > .register {
   text-decoration: none;
-  color: rgb(237, 235, 235);
-  background-color: rgb(32, 165, 243);
+  color: rgb(2, 2, 2);
+  background-color: rgb(226, 233, 224);
   padding: 6px;
   border-radius: 5px;
   font-size: 15px;
