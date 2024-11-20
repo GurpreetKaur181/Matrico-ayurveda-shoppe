@@ -92,3 +92,25 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+.diseaseList {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.diseaseListRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.diseaseListRow > button {
+  background-color: red;
+  color: pink;
+}
+
+.diseaseList li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
