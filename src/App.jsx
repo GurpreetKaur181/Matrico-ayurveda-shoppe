@@ -8,6 +8,7 @@ import AyurStore from "./pages/AyurStore/AyurStore.jsx";
 import DailyTips from "./pages/Daily_Tips/Daily_Tips.jsx";
 import Footer from "./components/footer/footer.jsx";
 
+
 function App() {
   return (
     <Router>
@@ -18,6 +19,8 @@ function App() {
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/ayur_store" element={<AyurStore />} />
         <Route path="/daily_tips" element={<DailyTips />} />
+        
+        
       </Routes>
       <Footer />
     </Router>
