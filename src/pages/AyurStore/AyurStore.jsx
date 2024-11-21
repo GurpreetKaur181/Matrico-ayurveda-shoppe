@@ -5,7 +5,7 @@ import styles from "./AyurStore.module.css";
 const images = [
   {
     name: "Herbal & Ayurveda Diabic Care Juice 1000 ml",
-    src: "Herbal & Ayurveda Diabic Care Juice 1000 ml.jpg",
+    src: "Herbal_&_Ayurveda_Diabic_Care_Juice_1000_ml.jpg",
     link: "https://www.amazon.in/Krishnas-Diabic-Care-Juice-Guduchi/dp/B07B6NKPFT",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -15,7 +15,7 @@ const images = [
   },
   {
     name: "Pankajakasthuri Breathe Easy Granules 400 gm",
-    src: "Pankajakasthuri Breathe Easy Granules 400 gm.png",
+    src: "Pankajakasthuri_Breathe_Easy_Granules_400_gm.png",
     link: "https://www.amazon.in/Pankajakasthuri-Breathe-Granules-Weezing-Net-400g/dp/B00ZWC970K",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -25,7 +25,7 @@ const images = [
   },
   {
     name: "Pankajakasthuri Breathe Easy Syrup 200 ml",
-    src: "Pankajakasthuri Breathe Easy Syrup 200 ml.jpg",
+    src: "Pankajakasthuri_Breathe_Easy_Syrup_200_ml.jpg",
     link: "https://www.amazon.in/Pankajakasthuri-Breathe-Eazy-Syrup-Pack/dp/B01DBZL4GY",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -35,7 +35,7 @@ const images = [
   },
   {
     name: "Lama Ayush kwath Tablet 60's",
-    src: "Lama Ayush kwath Tablet 60's.jpg",
+    src: "Lama_Ayush_kwath_Tablet_60's.jpg",
     link: "https://www.amazon.in/Lama-Ayush-Kwath-60-Tablet/dp/B08BTR3QN2",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -45,7 +45,7 @@ const images = [
   },
   {
     name: "Lama Draksharist Tonic 450 ml",
-    src: "Lama Draksharist Tonic 450 ml.jpg",
+    src: "Lama_Draksharist_Tonic_450_ml.jpg",
     link: "https://www.amazon.in/Lama-Draksharist-450-Digestive-Indigestion/dp/B08425CX8K",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -55,7 +55,7 @@ const images = [
   },
   {
     name: "Kairali Chyawanaprasam Lehya 500 gm",
-    src: "Kairali Chyawanaprasam Lehya 500 gm.jpg",
+    src: "Kairali_Chyawanaprasam_Lehya_500_gm.jpg",
     link: "https://www.amazon.in/Kairali-Kai_CY_500-Chyavanaprasam-500-gm/dp/B0CR45TJHD",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -65,7 +65,7 @@ const images = [
   },
   {
     name: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml",
-    src: "Dabur Honitus Herbal Cough Remedy Sugar Free Syrup 100 ml.jpg",
+    src: "Dabur_Honitus_Herbal_Cough_Remedy_Sugar_Free_Syrup_100_ml.jpg",
     link: "https://www.amazon.in/Honitus-Sugar-Ayurvedic-Throat-Relief/dp/B0CX98JBB3",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -75,7 +75,7 @@ const images = [
   },
   {
     name: "Lama Cough Syrup 100 ml",
-    src: "Lama Cough Syrup 100 ml.jpg",
+    src: "Lama_Cough_Syrup_100_ml.jpg",
     link: "https://www.amazon.in/Lama-Dashmularist-450-Recuperate-Delivery/dp/B08422QMVV",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -85,7 +85,7 @@ const images = [
   },
   {
     name: "Divya Swasari Pravahi",
-    src: "Divya Swasari Pravahi.jpg",
+    src: "Divya_Swasari_Pravahi.jpg",
     link: "https://www.amazon.in/Patanjali-Swasari-Pravahi-250-g/dp/B00SFI7SRM",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -95,7 +95,7 @@ const images = [
   },
   {
     name: "Divya Chandraprabha Vati",
-    src: "Divya Chandraprabha Vati.jpg",
+    src: "Divya_Chandraprabha_Vati.jpg",
     link: "https://www.amazon.in/Patanjali-Divya-Chandraprabha-Vati-Tablet/dp/B0CKBSDWPF",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -105,7 +105,7 @@ const images = [
   },
   {
     name: "Divya Jwarnashak kwath",
-    src: "Divya Jwarnashak kwath.png",
+    src: "Divya_Jwarnashak_kwath.png",
     link: "https://www.amazon.in/Patanjali-Divya-Jwarnashak-Kwath-Pack/dp/B07YFNPM5H",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -115,7 +115,7 @@ const images = [
   },
   {
     name: "Divya Dhara",
-    src: "Divya Dhara.png",
+    src: "Divya_Dhara.png",
     link: "https://www.amazon.in/Patanjali-Ayurved-Divya-Dhara-Piece/dp/B01G70NCII",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -125,7 +125,7 @@ const images = [
   },
   {
     name: "Shuddhi churna",
-    src: "Shuddhi churna.jpg",
+    src: "Shuddhi_churna.jpg",
     link: "https://www.amazon.in/Patanjali-Divya-Suddhi-Churna-Pack/dp/B07DSC4RNR",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -135,7 +135,7 @@ const images = [
   },
   {
     name: "Divya Khadirarishta",
-    src: "Divya Khadirarishta.png",
+    src: "Divya_Khadirarishta.png",
     link: "https://www.amazon.in/DIVYA-KHADIRARISHTH-450ML-PACK-2/dp/B08WJ1822R",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -145,7 +145,7 @@ const images = [
   },
   {
     name: "Divya churna",
-    src: "Divya churna.png",
+    src: "Divya_churna.png",
     link: "https://www.amazon.in/-/hi/%E0%A4%A6%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%9A%E0%A5%81%E0%A4%B0%E0%A4%A8%E0%A4%BE-100gm-%E0%A4%85%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A4%A4%E0%A4%BE/dp/B07HL9B2FC",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -155,7 +155,7 @@ const images = [
   },
   {
     name: "Peedantak Vati",
-    src: "Peedantak Vati.png",
+    src: "Peedantak_Vati.png",
     link: "https://www.amazon.in/Patanjali-Divya-Peedantak-Vati-Tab/dp/B081D1GCPK",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -175,7 +175,7 @@ const images = [
   },
   {
     name: "Divya Medha Vati",
-    src: "Divya Medha Vati.jpg",
+    src: "Divya_Medha_Vati.jpg",
     link: "https://www.amazon.in/Patanjali-Divya-Medha-Extra-Power/dp/B0BQ77BVKN",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -205,7 +205,7 @@ const images = [
   },
   {
     name: "mukti vati",
-    src: "mukti vati.jpg",
+    src: "mukti_vati.jpg",
     link: "https://www.amazon.in/Divya-Mukta-Vati-Extra-Power/dp/B0786ZQ1PG",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -215,7 +215,7 @@ const images = [
   },
   {
     name: "Hridyamrit vati",
-    src: "Hridyamrit vati.png",
+    src: "Hridyamrit_vati.png",
     link: "https://www.amazon.in/Divya-Hridyamrit-Vati-Extra-Power/dp/B0D9YSC28Y",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -225,7 +225,7 @@ const images = [
   },
   {
     name: "divya ashmarihar ras",
-    src: "divya ashmarihar ras.png",
+    src: "divya_ashmarihar_ras.png",
     link: "https://www.amazon.in/DIVYA-PHARMACY-ASHMARIHAR-RAS-100/dp/B08ZSQZB25",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -235,7 +235,7 @@ const images = [
   },
   {
     name: "livogrit vital",
-    src: "livogrit vital.jpg",
+    src: "livogrit_vital.jpg",
     link: "https://www.amazon.in/Patanjali-Divya-Livogrit-Vital-Pack/dp/B0CV4G4CYS",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -245,7 +245,7 @@ const images = [
   },
   {
     name: "Gokshuradhi guggul",
-    src: "Gokshuradhi guggul.png",
+    src: "Gokshuradhi_guggul.png",
     link: "https://www.amazon.com/Patanjali-Baba-Ramdev-Gokshuradi-Guggulu/dp/8513652369",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -265,7 +265,7 @@ const images = [
   },
   {
     name: "shatavr churna",
-    src: "shatavr churna.png",
+    src: "shatavr_churna.png",
     link: "https://www.amazon.in/Patanjali-Shatavar-Churna-100gms/dp/B077QFTG7J",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -275,7 +275,7 @@ const images = [
   },
   {
     name: "kesh kanti",
-    src: "kesh kanti.png",
+    src: "kesh_kanti.png",
     link: "https://www.amazon.in/Patanjali-Kesh-Kanti-Oil-120/dp/B00O9SZGO4",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -295,7 +295,7 @@ const images = [
   },
   {
     name: "nutrela weight gain",
-    src: "nutrela weight gain.jpg",
+    src: "nutrela_weight_gain.jpg",
     link: "https://www.amazon.in/Nutrela-Weight-Gain-Banana-Flavour/dp/B0B4RXF1Z6",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -305,7 +305,7 @@ const images = [
   },
   {
     name: "weight go tablet",
-    src: "weight go tablet.png",
+    src: "weight_go_tablet.png",
     link: "https://www.amazon.in/DIVYA-WEIGHT-TAB-LOOSE-EXTRA/dp/B0CBK7SZFD",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -325,7 +325,7 @@ const images = [
   },
   {
     name: "anartava syrup",
-    src: "anartava syrup.jpg",
+    src: "anartava_syrup.jpg",
     link: "https://www.amazon.in/Namyaa-Anartava-Delayed-Irregular-millilitre/dp/B08NT8FKBR?th=1",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",
@@ -335,7 +335,7 @@ const images = [
   },
   {
     name: "chandraprabha vati",
-    src: "chandraprabha vati.png",
+    src: "chandraprabha_vati.png",
     link: "https://www.amazon.in/Divya-Chandraprabha-Vati-120-Tablets/dp/B07864XY89",
     description:
       "Herbal & Ayurveda Diabetic Care Juice 1000 ml is a natural, plant-based supplement designed to help manage blood sugar levels and promote overall wellness.",

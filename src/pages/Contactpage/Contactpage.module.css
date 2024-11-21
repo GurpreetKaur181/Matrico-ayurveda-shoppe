@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .contact {
-  background-image: url("images/CONTACT US (2).png");
+  background-image: url("/images/contact_us.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
