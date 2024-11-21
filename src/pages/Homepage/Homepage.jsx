@@ -371,8 +371,8 @@ function Homepage() {
       <div className={styles.textContent}>
         <h1
           style={{
-            fontSize: "35px",
-            marginTop: "60px",
+            fontSize: "40px",
+            marginTop: "35px",
             color: "green",
           }}
         >

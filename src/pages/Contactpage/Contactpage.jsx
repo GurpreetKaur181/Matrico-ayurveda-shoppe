@@ -1,18 +1,13 @@
-import React from 'react';
-import styles from './contactpage.module.css';
+import React from "react";
+import styles from "./contactpage.module.css";
 
 function Contactpage() {
   return (
     <section className={styles.contact}>
-      {/* Content section - Contact Us Heading */}
-      <div className={styles.content}>
-        <h2>Contact Us</h2>
-      </div>
+      <div className={styles.content}>Contact Us</div>
 
-      {/* Box Wrapper - To hold the contact information and form */}
       <div className={styles.boxWrapper}>
         <div className={styles.contactWrapper}>
-          {/* Contact Info Section */}
           <div className={styles.contactInfo}>
             <div className={styles.contactBox}>
               <div className={styles.icon}>
@@ -21,7 +16,11 @@ function Contactpage() {
               <div className={styles.text}>
                 <h3>Address</h3>
                 <p>
-                  <a href="https://goo.gl/maps/someMapLink" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://goo.gl/maps/someMapLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     405544 Sugar camp Road, City, Country
                   </a>
                 </p>
@@ -48,12 +47,27 @@ function Contactpage() {
               </div>
             </div>
 
-           
             <ul className={styles.socialIcons}>
-              <li><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+              <li>
+                <a href="#">
+                  <i className="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa-brands fa-instagram"></i>
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -81,7 +95,6 @@ function Contactpage() {
               </div>
             </form>
           </div>
-
         </div>
       </div>
     </section>

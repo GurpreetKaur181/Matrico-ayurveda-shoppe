@@ -1,6 +1,10 @@
-/* General contact section styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .contact {
-  background-image: url('images/CONTACT US (2).png'); 
+  background-image: url("images/CONTACT US (2).png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -8,30 +12,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  
 }
 
 /* Content section (heading and description) */
 .content {
   text-align: center;
   color: #10042c;
-  margin-bottom: 10px; 
-  max-width: 900px;
-  font-size: 30px;
+  margin-bottom: 10px;
+  font-size: 40px;
 }
 
 /* Box wrapper - contains all boxes */
 .boxWrapper {
-  background-color: rgba(51, 194, 70, 0.8); 
+  background-color: rgba(51, 194, 70, 0.8);
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 80%;
-  max-width: 1200px; 
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px; 
+  gap: 30px;
 }
 
 /* Flex layout for contact info and form */
@@ -62,10 +63,9 @@
   gap: 15px;
 }
 
-
 .icon {
   font-size: 30px;
-  color: #4CAF50;
+  color: #4caf50;
 }
 
 /* Text inside each contact box */
@@ -81,7 +81,7 @@
 }
 
 .text a {
-  color: #4CAF50;
+  color: #4caf50;
   text-decoration: none;
 }
 
@@ -90,7 +90,6 @@
 }
 
 /* Social media icons */
-
 
 .socialIcons {
   display: flex;
@@ -134,7 +133,7 @@
 }
 
 .inputBox input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   cursor: pointer;
@@ -163,5 +162,5 @@
 .inputBox textarea:valid ~ span {
   top: -10px;
   font-size: 12px;
-  color: #4CAF50;
+  color: #4caf50;
 }
