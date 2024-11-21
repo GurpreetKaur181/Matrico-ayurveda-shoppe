@@ -7,7 +7,6 @@ import Contactpage from "./pages/Contactpage/Contactpage.jsx";
 import AyurStore from "./pages/AyurStore/AyurStore.jsx";
 import DailyTips from "./pages/Daily_Tips/Daily_Tips.jsx";
 import Footer from "./components/footer/footer.jsx";
-import Detailpage from "./pages/DetailPage/Detailpage.jsx";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/ayur_store" element={<AyurStore />} />
         <Route path="/daily_tips" element={<DailyTips />} />
-        <Route path="/detailpage" element={<Detailpage />} />
       </Routes>
       <Footer />
     </Router>
