@@ -1,19 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useUser } from "../../utils/UserContext.jsx";
+import { AiOutlineUser } from "react-icons/ai";
 import styles from "./Nav.module.css";
-import image from "../../../images/Logo.png";
 
 function Nav() {
+  const { user } = useUser();
+
   return (
     <nav className={styles.navbar}>
-      {/* Navbar logo */}
-      {/* <div className={styles.logoContainer}>
-        <img src={image} alt="Navbar Logo" className={styles.logo} />
-      </div> */}
-
       <div className={styles.logo}>Metrico Ayurveda Shoppe</div>
 
-      {/* Navbar Links */}
       <ul className={styles.navList}>
         <li className={styles.navItem}>
           <Link to="/" className={styles.navLink}>
@@ -42,14 +39,22 @@ function Nav() {
         </li>
       </ul>
 
-      {/* Login and Register Links */}
       <div className={styles.authContainer}>
-        <Link to="/login" className={styles.login}>
-          LOGIN
-        </Link>
-        <Link to="/register" className={styles.register}>
-          REGISTER
-        </Link>
+        {user ? (
+          <div className={styles.userInfo}>
+            <AiOutlineUser className={styles.userIcon} />
+            <span className={styles.username}>{user.username}</span>
+          </div>
+        ) : (
+          <>
+            <Link to="/login" className={styles.login}>
+              LOGIN
+            </Link>
+            <Link to="/register" className={styles.register}>
+              REGISTER
+            </Link>
+          </>
+        )}
       </div>
     </nav>
   );

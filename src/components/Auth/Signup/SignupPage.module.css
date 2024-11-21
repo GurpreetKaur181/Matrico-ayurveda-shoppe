@@ -10,21 +10,21 @@
 }
 
 .loginBox {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
   padding: 40px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   text-align: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
 .title {
-  font-size: 24px;
+  font-size: 26px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .form {
@@ -60,7 +60,7 @@
 }
 
 .input:focus {
-  border-color: #007bff;
+  border-color: #28a745;
   outline: none;
 }
 
@@ -77,7 +77,7 @@
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: rgba(0, 123, 255, 0.8);
+  background-color: rgba(40, 167, 69, 0.8);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -85,7 +85,7 @@
 }
 
 .button:hover {
-  background-color: rgba(0, 123, 255, 1);
+  background-color: rgba(40, 167, 69, 1);
   transform: scale(1.05);
 }
 
@@ -96,7 +96,7 @@
 }
 
 .signupText a {
-  color: #007bff;
+  color: #28a745;
   text-decoration: none;
 }
 

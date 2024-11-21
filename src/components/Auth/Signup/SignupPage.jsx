@@ -1,26 +1,27 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useUser } from "../../../utils/UserContext.jsx";
 import {
   AiOutlineUser,
+  AiOutlineMail,
   AiOutlineEye,
   AiOutlineEyeInvisible,
 } from "react-icons/ai";
-import styles from "./Loginpage.module.css";
+import styles from "./SignupPage.module.css";
 
-const Loginpage = () => {
+const SignupPage = () => {
   const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-  const { loginUser } = useUser();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    loginUser(username);
+    alert("Signup Successful!");
     setUsername("");
+    setEmail("");
     setPassword("");
-    navigate("/");
+    navigate("/login");
   };
 
   const togglePasswordVisibility = () => setShowPassword(!showPassword);
@@ -28,7 +29,7 @@ const Loginpage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.loginBox}>
-        <h2 className={styles.title}>Login</h2>
+        <h2 className={styles.title}>Sign Up</h2>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
             <label htmlFor="username" className={styles.label}>
@@ -45,6 +46,23 @@ const Loginpage = () => {
                 className={styles.input}
               />
               <AiOutlineUser className={styles.icon} />
+            </div>
+          </div>
+          <div className={styles.inputGroup}>
+            <label htmlFor="email" className={styles.label}>
+              Email
+            </label>
+            <div className={styles.inputWithIcon}>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your email"
+                required
+                className={styles.input}
+              />
+              <AiOutlineMail className={styles.icon} />
             </div>
           </div>
           <div className={styles.inputGroup}>
@@ -75,15 +93,15 @@ const Loginpage = () => {
             </div>
           </div>
           <button type="submit" className={styles.button}>
-            Login
+            Sign Up
           </button>
         </form>
         <p className={styles.signupText}>
-          Don't have an account? <a href="/register">Sign Up</a>
+          Already have an account? <a href="/login">Login</a>
         </p>
       </div>
     </div>
   );
 };
 
-export default Loginpage;
+export default SignupPage;

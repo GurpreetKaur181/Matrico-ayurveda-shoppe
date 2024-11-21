@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,10 +11,8 @@
   color: rgb(240, 234, 234);
   font-size: 18px;
   padding: 0 30px;
-  overflow: hidden;
 }
 
-/* Logo styling */
 .logo {
   margin: 10px;
   font-size: 20px;
@@ -23,23 +20,18 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Navbar list styling */
-.navbar > .navList {
+.navList {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   gap: 60px;
   flex: 1;
   justify-content: center;
   align-items: center;
 }
 
-/* Navbar link styling */
 .navLink {
   text-decoration: none;
   color: rgb(245, 238, 238);
-  border-radius: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -49,27 +41,81 @@
   color: #080808;
 }
 
-/* Container for login and register links */
 .authContainer {
   display: flex;
   gap: 15px;
   align-items: center;
 }
 
-.authContainer > .login {
-  text-decoration: none;
-  color: rgb(2, 2, 2);
-  background-color: rgb(226, 233, 224);
-  padding: 6px 10px;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
+.authContainer > .login,
 .authContainer > .register {
   text-decoration: none;
-  color: rgb(2, 2, 2);
-  background-color: rgb(226, 233, 224);
-  padding: 6px;
-  border-radius: 5px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border: 2px solid white;
+  padding: 3px 6px;
   font-size: 15px;
+  border-radius: 5px;
+  backdrop-filter: blur(50px); /* Apply blur effect */
+}
+
+.authContainer > .login:hover,
+.authContainer > .register:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Slightly more visible on hover */
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px;
+}
+
+.username {
+  color: rgb(245, 238, 238);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.userIcon {
+  font-size: 20px;
+  color: rgb(245, 238, 238);
+}
+
+.userMenu {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 10px;
+  z-index: 1000;
+  display: none;
+}
+
+.authContainer .showUserMenu {
+  display: block;
+}
+
+.logout {
+  margin-top: 10px;
+  background-color: #186f5b;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout:hover {
+  background-color: #154d44;
 }
